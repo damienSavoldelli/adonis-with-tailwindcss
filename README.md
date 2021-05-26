@@ -1,17 +1,17 @@
 # adonis-with-tailwindcss
-Install tailwindcss with adonisJS 5
+## Install tailwindcss with adonisJS 5
 
-1. Install tailwindcss, postCss & autoprefixer
+__1.__ Install tailwindcss, postCss & autoprefixer
 ```
 npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
 ```
 
-2. Initialize tailwindcss config file
+__2.__ Initialize tailwindcss config file
 ```
 npx tailwindcss init
 ```
 
-3. Create postcss.config.js file, with configs
+__3.__ Create postcss.config.js file, with configs
 ```javascript
 const tailwindcss = require('tailwindcss')
 const autoprefixer = require('autoprefixer')
@@ -24,28 +24,32 @@ module.exports = {
 }
 ```
 
-4. Enable support postCSS in webpack config
+__4.__ Enable support postCSS in webpack config (webpack.config.js)
 ```javascript
 Encore.enablePostCssLoader()
 ```
 
-5. Install postcss-loader 
+__5.__ Install postcss-loader 
 ```
 npm install -D postcss-loader
 ```
 
-6. execute adonis serve to compile (in watch mode)
+__6.__ execute adonis serve to compile (in watch mode)
 ```
 node ace serve -w
 ```
 
 
-7. Tailwindcs is installed & compil in apps.css, Let's working !
+__7.__ Tailwindcs is installed & compil in apps.css, Let's working !
+
 ![app.css](docs/screenshots/screen-app.css.png)
 
 
+__Stack used :__
+- node : v14.17.0
+- npm : 6.14.13
 
-Source :
+__Sources :__
 - adonisJS doc : 
   - [activate postCss](https://docs.adonisjs.com/guides/assets-manager#setup-postcss)
 
