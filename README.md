@@ -44,6 +44,9 @@ __7.__ Tailwindcs is installed & compil in apps.css, Let's working !
 
 ![app.css](docs/screenshots/screen-app.css.png)
 
+<br>
+<br>
+<br>
 
 __Stack used :__
 - node : v14.17.0
