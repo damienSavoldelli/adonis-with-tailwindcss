@@ -1,6 +1,7 @@
 node_modules
 build
 coverage
+public/assets/
 .vscode
 .DS_STORE
 .env
